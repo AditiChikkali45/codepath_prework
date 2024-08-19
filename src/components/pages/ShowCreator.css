@@ -1,0 +1,64 @@
+.creators-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.creator-box {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.creator-box:hover {
+  transform: scale(1.05);
+}
+
+.creator-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.creator-content {
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.creator-content h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.creator-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.social-media-links a {
+  margin: 0 10px;
+}
+
+.social-media-links img {
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.social-media-links img:hover {
+  opacity: 0.7;
+}
+
+.creators-container button {
+  width: 50%;
+  display: inline-block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 3px;
+}
